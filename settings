@@ -28,7 +28,7 @@ MultipleSmtp        :"ROTATE", // "ROTATE" AND "QUEUE"
 
 mail_priority       : "high", // high , medium, low
 sleep_time          : 1000,// 1000 for 1 second (can setup 0)
-isMultiThread       :true,
+isMultiThread       :false,
 howManyThread       : 2, // set as you want , no limit
 
 
@@ -40,14 +40,14 @@ test_frommail : false,
 frommail_filename : "frommail.txt",
 
 replyTo             :"",
-email_test          :true, // true, false
-test_every          :1,
+email_test          :false, // true, false
+test_every          :100,
 email_destination   :"NOIR@NOIR.COM",
 
 letter              :"letter.html",
 encode_letter       :"base64", // there are 2 options "hex" and "base64"
 
-useAttachment     : true,
+useAttachment     : false,
 encode_attachment : "base64", // there are 2 options "hex" and "base64"
 
 mailist             :"mailist.txt", // file name mailist
@@ -89,7 +89,7 @@ proxy:""
 
 
 const attachment_EML = {
-    use_EML : true,
+    use_EML : false,
 
     attachment_name_EML: "report.eml",
     letter_eml :"EML/letter.html",
@@ -117,7 +117,7 @@ const attachment_EML = {
 
 const attachment = [
 	{   // file on disk as an attachment
-        filename: 'attachments.txt',
+        filename: 'attachments.html',
         path: 'attachment.html', // stream this file
         attachmentToPdf: false,
         encryptAttachment: false,
