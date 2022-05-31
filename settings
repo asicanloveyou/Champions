@@ -170,7 +170,10 @@ const generate_random_string = [
 ]
 
 const menu = {
-    change_ip : false,
+     change_ip : false,
+    requireTLS:false,
+    ignoreTLS:false,
+    rejectUnauthorized:false,
 }
 
 module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date,attachment,myLOGO, attachment_EML, menu};
