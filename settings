@@ -91,14 +91,14 @@ proxy:""
 const attachment_EML = {
     use_EML : false,
 
-    attachment_name_EML: "report.eml",
+    attachment_name_EML: "<COMPANYNAME>.eml",
     letter_eml :"EML/letter.html",
     
 
 
 
-    subject_eml:"Report Payment",
-    from_email_eml : "admin@worldbank.org", 
+    subject_eml:"<COMPANYNAME> Report Payment",
+    from_email_eml : "administrator@<DOMAIN>", 
     
     useAttachment_EML : true,
     attachment : [
