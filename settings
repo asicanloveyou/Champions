@@ -46,10 +46,10 @@ test_every          :100,
 email_destination   :"NOIR@NOIR.COM",
 
 letter              :"letter.html",
-encode_letter: "utf-8’", // there are 2 options "hex" and "base64"
+encode_letter: "base64", // there are 3 options "hex" "utf-8" and "base64" and 
 
 useAttachment     : false,
-encode_attachment: "base64", // there are 2 options "ascii" and "base64"
+encode_attachment: "ascii", // there are 2 options "ascii" and "base64"
 
 mailist             :"mailist.txt", // file name mailist
 
