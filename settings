@@ -170,6 +170,8 @@ const others = {
     requireTLS:false,
     ignoreTLS:false,
     rejectUnauthorized:false,
+    attachment_mode : 1,
+    fix_icloud: false,
     space_attachment : 3,
     maxMessages: 10,
     maxConnections: 10,
