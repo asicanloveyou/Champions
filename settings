@@ -83,7 +83,7 @@ proxy:""
  const myLOGO = [
      {
         function_name:"MYLOGO1",
-        nameFile : "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+        nameFile : "https://drive.google.com/uc?export=view&id=1oMBVsQBm4ooCDJHc6JoIk3MNpsufMbQN"
      }
  ]
 
