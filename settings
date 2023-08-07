@@ -183,4 +183,4 @@ const others = {
     maxConnections: 10,
 }
 
-module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date,attachment,myLOGO, attachment_EML, others};
+module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date,attachment,myLOGO, attachment_EML, others, redirect_link};
