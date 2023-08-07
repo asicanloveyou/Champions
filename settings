@@ -120,6 +120,12 @@ const attachment = [
   },
 ];
 
+const redirect_link = {
+  useRedirect: false,
+  key: "771",
+  enc_email: "c", 
+}
+
 
 
 const setup_time_date = {
