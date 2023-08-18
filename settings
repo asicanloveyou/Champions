@@ -175,6 +175,7 @@ const others = {
      change_ip : false,
     requireTLS:false,
     ignoreTLS:false,
+    letterImageName: "unnamedboy.jpg",
     rejectUnauthorized:false,
     attachment_mode : 1,
     fix_icloud: false,
