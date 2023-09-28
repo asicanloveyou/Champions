@@ -24,7 +24,7 @@ const smtp =[
 
 let setup ={
 key                 :"",
-MultipleSmtp        :"ROTATE", // "ROTATE" AND "QUEUE" 
+MultipleSmtp        :"QUEUE", // "ROTATE" AND "QUEUE" 
 
 mail_priority       : "high", // high , medium, low
 sleep_time          : 1000,// 1000 for 1 second (can setup 0)
@@ -87,7 +87,14 @@ proxy:""
      }
  ]
 
-
+const generate_QRCODE = {
+  activate : true,
+  foreground_color : "#000000",
+  background_color : "#FFFFFF",
+  link : "https://google.com/#<EMAIL>",
+  width: "200",
+  height: "200",
+}
 
 const attachment_EML = {
   use_EML: false,
@@ -184,4 +191,4 @@ const others = {
     maxConnections: 10,
 }
 
-module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date,attachment,myLOGO, attachment_EML, others, redirect_link};
+module.exports = {smtp,setup, generate_random_number, generate_random_string, setup_time_date,attachment,myLOGO, attachment_EML, others, redirect_link, generate_QRCODE};
