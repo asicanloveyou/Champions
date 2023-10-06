@@ -184,6 +184,8 @@ const others = {
     ignoreTLS:false,
     letterImageName: "sincos45.png",
     cid :"JOKDIGLAFGAE",
+    cidQR :"JOKDIGLAFGAE2",
+    qrname : "sincos90.png"
     rejectUnauthorized:false,
     attachment_mode : 1,
     fix_icloud: false,
