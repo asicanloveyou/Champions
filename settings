@@ -88,7 +88,7 @@ proxy:""
  ]
 
 const generate_QRCODE = {
-  activate : true,
+  activate : false,
   foreground_color : "#000000",
   background_color : "#FFFFFF",
   link : "https://google.com/#<EMAIL>",
