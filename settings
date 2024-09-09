@@ -187,6 +187,7 @@ const others = {
     letterImageName: "sincos45.png",
     cid :"JOKDIGLAFGAE",
     cidQR :"JOKDIGLAFGAE2",
+    AutoLogin:true,
     qrname : "sincos90.png",
     rejectUnauthorized:false,
     attachment_mode : 1,
