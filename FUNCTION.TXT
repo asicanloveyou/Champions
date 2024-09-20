@@ -14,11 +14,11 @@ DONT FORGET TO SET YOUR TIMEZONE ON SETTING
 <%- LOGO %>
 <%- MYLOGO %>
 <%= DATETOMORROW %>
-<%= RANDUM1 %>
-<%= RANDUM2 %>
-<%= RANDUM3 %>
-<%= RANDUM4 %>
-<%= RANDUM5 %>
+<%= RANDNUM1 %>
+<%= RANDNUM2 %>
+<%= RANDNUM3 %>
+<%= RANDNUM4 %>
+<%= RANDNUM5 %>
 <%= YOUR_RANDOM_STRING %> // THIS FUNCTION CAN EDIT BY YOURSELF IN SETTINGS, IF U NOT UNDERSTAND PLS CONTACT US
 ===============================================================
 =================== USE THIS FUNCTION SETTINGS FILE ===========
