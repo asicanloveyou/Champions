@@ -18,6 +18,7 @@
     "axios": "^0.21.1",
     "cfonts": "^2.9.3",
     "colors": "^1.4.0",
+    "socks-proxy-agent": "^8.0.4",
     "console-stamp": "^3.0.2",
     "death": "^1.1.0",
     "ejs": "^3.1.6",
